@@ -5,27 +5,27 @@ const Specialization = () => {
   const [hoverEffect, setHoverEffect] = useState(null);
   const data = [
     {
-      title: "It/Software",
-      img: "./images/it.jpg",
+      title: "Remote",
+      img: " ./images/remote.jpg",
       description:
-        "We have a team of dedicated IT proffesionals who expert in It and software development",
+        "Remote jobs can be employee-based jobs or freelance jobs, depending on how the employer sets up the role. ",
     },
 
     {
-      title: "Manufacturing",
+      title: "Contract based",
       // img: "./images/manufacturing.jpg",
-      img: "./images/it.jpg",
+      img: "./images/contract.jpg",
 
       description:
-        "Manufacturing is the process of transforming raw materials into finished goods .",
+        "A contract position is where a worker is hired to complete a specific job over a predetermined period and for a set amount of money",
     },
     {
-      title: "Ecommerce",
+      title: "Permenant",
       // img: "./images/ecommerce.jpg",
-      img: "./images/it.jpg",
+      img: "./images/permenant.jpg",
 
       description:
-        "Ecommerce is a method of buying and selling goods and services online",
+        "Permanent employment is an employment relationship where an individual works for an employer and receives payment directly from them",
     },
   ];
   console.log("data", data);
@@ -60,38 +60,12 @@ const Specialization = () => {
       <div className="grid items-start grid-cols-3 gap-20 pb-2 mt-10 sm:grid-cols-1 md:grid-cols-2">
         {data?.map((item, index) => (
           <>
-            {/* <div
-              onMouseEnter={() => setHoverEffect(index)}
-              onMouseLeave={() => {
-                setHoverEffect(null);
-              }}
-              className="flex flex-col items-center justify-center gap-5 border-2 rounded border-secondery"
-            >
-              <div className="-mt-10 bg-white border-2 rounded-full border-primary">
-                <img
-                  className="w-40 h-40 rounded-full"
-                  src={item?.img}
-                  alt="Image"
-                />
-              </div>
-              <h1 className="text-2xl font-semibold text-primary">
-                {item?.title}
-              </h1>
-              <p
-                className={`h-0 overflow-hidden  transition-all  duration-500${
-                  index === hoverEffect && " text-white h-32 p-5 bg-primary"
-                }`}
-              >
-                {item?.description}
-              </p>
-            </div> */}
-
             <div className="flex flex-col ">
               <div
                 style={{ height: "500px" }}
-                className="flex flex-col items-center justify-center w-auto rounded-lg shadow-xl md:w-92 md:gap-3 bg-primary"
+                className="flex flex-col items-center justify-center w-auto rounded-lg shadow-xl cursor-pointer md:w-92 md:gap-3 bg-primary"
               >
-                <div className="p-3 md:p-0">
+                <div className="p-3 shadow-md md:p-0 opacity-40 hover:opacity-30">
                   <img
                     className=" !rounded-lg  h-80 w-full md:py-5 md:px-2"
                     src={item?.img}
@@ -101,7 +75,7 @@ const Specialization = () => {
                 <h1 className="text-2xl font-semibold text-white">
                   {item?.title}
                 </h1>
-                <div className="w-full h-20 p-3">
+                <div className="w-full h-20 pb-3">
                   <p className="text-white ">{item?.description}</p>
                 </div>
               </div>
