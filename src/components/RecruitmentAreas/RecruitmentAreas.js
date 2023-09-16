@@ -31,8 +31,8 @@ const Specialization = () => {
   console.log("data", data);
 
   return (
-    <div className="my-15">
-      <h1 className="mt-0 mb-5 text-4xl font-semibold text-center text-primary">
+    <div className="my-5">
+      <h1 className="mt-0 mb-10 text-4xl font-semibold text-center text-primary">
         Recruitment Areas
       </h1>
       <div className="flex flex-col items-center justify-center mb-10 lg:flex-col">
@@ -87,7 +87,7 @@ const Specialization = () => {
                 <h1 className="items-center pl-6 mt-5 text-3xl font-semibold text-white">
                   {item?.title}
                 </h1>
-                <div className="w-full h-20 p-5 pb-3">
+                <div className="w-full h-20 px-4 pb-3">
                   <p className="text-white ">{item?.description}</p>
                 </div>
               </div>

@@ -11,7 +11,7 @@ const ContactUs = () => {
         Get in touch
       </h1>
 
-      <div className="flex w-full h-auto p-4 pt-10 pl-0 bg-white border-2 rounded sm:w-auto md:flex-col border-primary">
+      <div className="flex w-full h-auto p-4 pt-10 pl-0 bg-white border-2 rounded sm:w-full md:flex-col border-primary">
         <div className="flex flex-col w-1/2 gap-5 p-5">
           <div className="flex items-center gap-5">
             <i class="ri-map-pin-line text-5xl text-secondery bg-orange-200 p-2 rounded"></i>
@@ -23,15 +23,13 @@ const ContactUs = () => {
           </div>
           <div className="flex items-center gap-5 ">
             <i class="ri-mail-line text-5xl text-blue-300 bg-orange-200 p-2 rounded"></i>
-
             <div>
               <h1 className="text-xl font-semibold">Mail Us</h1>
-              <h1>Muhammedrasalvm2020@gmail.com</h1>
+              <h1 className="sm:text-md">Muhammedrasalvm2020@gmail.com</h1>
             </div>
           </div>
           <div className="flex items-center gap-5 ">
             <i class="ri-smartphone-line text-5xl text-green-500 bg-orange-200 p-2 rounded"></i>
-
             <div>
               <h1 className="text-xl font-semibold">Call Us</h1>
               <h1>9539462746</h1>
