@@ -11,7 +11,7 @@ const ContactUs = () => {
         Get in touch
       </h1>
 
-      <div className="flex w-full h-auto p-4 pt-10 pl-0 bg-white border-2 rounded md:flex-col sm:w-full border-primary">
+      <div className="flex w-full h-auto p-4 pt-10 pl-0 bg-white border-2 rounded sm:w-auto md:flex-col border-primary">
         <div className="flex flex-col w-1/2 gap-5 p-5">
           <div className="flex items-center gap-5">
             <i class="ri-map-pin-line text-5xl text-secondery bg-orange-200 p-2 rounded"></i>
@@ -42,17 +42,17 @@ const ContactUs = () => {
           <input
             name="name"
             placeholder="Name"
-            className="bg-blue-100 border-none rounded outline-none h-14"
+            className="p-3 bg-blue-100 border-none rounded outline-none h-14"
           ></input>
           <input
             name="email"
             placeholder="Email"
-            className="text-green-900 bg-blue-100 border-none rounded outline-none h-14 selection:outline-none"
+            className="p-3 text-green-900 bg-blue-100 border-none rounded outline-none h-14 selection:outline-none"
           ></input>
           <input
             name="phone"
             placeholder="Phone"
-            className="text-black bg-blue-100 border-none rounded outline-none h-14"
+            className="p-3 text-black bg-blue-100 border-none rounded outline-none h-14"
           ></input>
           <div className="flex justify-end">
             <button className="w-24 text-white rounded cursor-pointer h-14 bg-secondery">

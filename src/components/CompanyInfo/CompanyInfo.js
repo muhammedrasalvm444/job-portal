@@ -18,11 +18,11 @@ function CompanyInfo() {
         Middle East. It was founded in March 1997 by Indian businessman Sanjeev
         Bikhchandani. shehiring.com is the largest employment website in India.
       </p>
-      <div className="flex flex-col items-center justify-center gap-5 p-2 text-center rounded bg-primary text-secondery mt-11 hover:text-primary hover:bg-secondery">
-        <h1 className="italic font-semibold text-7xl md:text-4xl">
-          "" If opertunity doesn't knock,
+      <div className="flex flex-col items-center justify-center gap-3 p-2 my-3 text-center rounded bg-primary text-secondery mt-11 hover:text-primary hover:bg-secondery">
+        <h1 className="italic font-semibold text-7xl md:text-4xl sm:text-3xl">
+          "" If opportunity doesn't knock,
         </h1>
-        <h1 className="italic font-semibold text-7xl md:text-4xl ">
+        <h1 className="italic font-semibold text-7xl md:text-4xl sm:text-3xl ">
           build a door ""
         </h1>
       </div>

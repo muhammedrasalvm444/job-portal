@@ -20,7 +20,7 @@ module.exports = {
         max: "1000px",
       },
       sm: {
-        max: "500px",
+        max: "600px",
       },
     },
   },

@@ -5,12 +5,14 @@ const Intro = () => {
   return (
     <div className="flex items-center mt-16 justify-evenly md:flex-col">
       <div className="flex flex-col gap-5 ">
-        <h1 className="font-bold sm:ml-3 text-9xl sm:text-5xl text-primary">
-          SHEY
-        </h1>
-        <h1 className="font-bold text-9xl sm:text-5xl text-secondery sm:ml-3">
-          HIRING
-        </h1>
+        <div className="flex flex-col  sm:flex-row">
+          <h1 className="font-bold sm:ml-3 text-9xl sm:text-5xl text-primary">
+            SHEY
+          </h1>
+          <h1 className="font-bold text-9xl sm:text-5xl text-secondery sm:ml-3">
+            HIRING
+          </h1>
+        </div>
         <div className="flex gap-10 mt-5">
           <h1 className="ml-2 text-xl text-gray-600 ">
             Find a reason to progress..
