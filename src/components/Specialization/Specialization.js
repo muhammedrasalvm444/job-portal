@@ -31,7 +31,7 @@ const Specialization = () => {
   ];
   console.log("data", data);
   return (
-    <div className="my-20">
+    <div className="my-10">
       <h1 className="mb-6 text-4xl font-semibold text-center text-primary">
         Specialization
       </h1>
@@ -73,7 +73,7 @@ const Specialization = () => {
             </h1>
             <p
               className={`h-0 overflow-hidden  transition-all  duration-500${
-                index === hoverEffect && " text-white h-32 p-5 bg-primary"
+                index === hoverEffect && " text-white h-auto p-5 bg-primary"
               }`}
             >
               {item?.description}

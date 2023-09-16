@@ -57,25 +57,37 @@ const Specialization = () => {
         <img src={RecruitmentImage} className="h-[400px] lg:h-[300px]"></img>
       </div>
 
-      <div className="grid items-start grid-cols-3 gap-20 pb-2 mt-10 sm:grid-cols-1 md:grid-cols-2">
+      <div className="grid items-start grid-cols-3 gap-20 pb-2 mt-10 sm:gap-2 sm:grid-cols-1 md:grid-cols-1 md:gap-5">
         {data?.map((item, index) => (
           <>
             <div className="flex flex-col ">
               <div
-                style={{ height: "500px" }}
-                className="flex flex-col items-center justify-center w-auto rounded-lg shadow-xl cursor-pointer md:w-92 md:gap-3 bg-primary"
+                style={{
+                  height: "34.375rem",
+                  "@media (max-width: 768px)": {
+                    height: "20rem",
+                    display: "grid",
+
+                    // Adjust this value for smaller screens
+                  },
+                  "@media (max-width: 1024px)": {
+                    height: "28rem",
+                    // Adjust this value for medium-sized screens
+                  },
+                }}
+                className="flex flex-col w-full py-4 mt-10 rounded-lg shadow-xl cursor-pointer md:w-92 md:gap-3 bg-primary"
               >
-                <div className="p-3 shadow-md md:p-0 opacity-40 hover:opacity-30">
+                <div className="px-3 shadow-md md:p-0 opacity-80 hover:opacity-70">
                   <img
-                    className=" !rounded-lg  h-80 w-full md:py-5 md:px-2"
+                    className=" !rounded-lg  h-80 w-full md:py-2 md:px-2 lg:h-70 "
                     src={item?.img}
                     alt="Image"
                   />
                 </div>
-                <h1 className="text-2xl font-semibold text-white">
+                <h1 className="items-center pl-6 mt-5 text-3xl font-semibold text-white">
                   {item?.title}
                 </h1>
-                <div className="w-full h-20 pb-3">
+                <div className="w-full h-20 p-5 pb-3">
                   <p className="text-white ">{item?.description}</p>
                 </div>
               </div>

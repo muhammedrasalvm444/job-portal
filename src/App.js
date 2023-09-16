@@ -12,7 +12,7 @@ import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <>
-      <div className="p-4 mx-10 md:mx-0 ">
+      <div className="p-4 mx-15 md:mx-0 ">
         <Header />
         <Intro />
         <CompanyInfo />
