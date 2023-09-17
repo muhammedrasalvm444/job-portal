@@ -40,7 +40,7 @@ const Specialization = () => {
           src={SpecializationImage}
           className="h-[400px] lg:h-[300px] "
         ></img>
-        <p className="mb-10 text-xl text-gray-700">
+        <p className="mb-10 text-xl text-justify text-gray-700">
           Specialization is when a nation focuses its labor, resources, and
           capital on the production of a good or service that they are experts
           in. Trade is when nations create a relationship that promotes the
@@ -72,7 +72,7 @@ const Specialization = () => {
               {item?.title}
             </h1>
             <p
-              className={`h-0 overflow-hidden  transition-all  duration-500${
+              className={`h-0 overflow-hidden text-justify  transition-all  duration-500${
                 index === hoverEffect && " text-white h-auto p-5 bg-primary"
               }`}
             >

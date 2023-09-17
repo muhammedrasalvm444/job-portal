@@ -36,7 +36,7 @@ const Specialization = () => {
         Recruitment Areas
       </h1>
       <div className="flex flex-col items-center justify-center mb-10 lg:flex-col">
-        <p className="mb-5 text-xl text-gray-700">
+        <p className="mb-5 text-xl text-justify text-gray-700">
           Specialization is when a nation focuses its labor, resources, and
           capital on the production of a good or service that they are experts
           in. Trade is when nations create a relationship that promotes the
@@ -45,7 +45,7 @@ const Specialization = () => {
           made TSMC irreplaceable—and has made the entire world deeply,
           precariously dependent on it.
         </p>
-        <p className="mb-4 text-xl text-gray-700">
+        <p className="mb-4 text-xl text-justify text-gray-700">
           Specialization is when a nation focuses its labor, resources, and
           capital on the production of a good or service that they are experts
           in. Trade is when nations create a relationship that promotes the
@@ -88,7 +88,7 @@ const Specialization = () => {
                   {item?.title}
                 </h1>
                 <div className="w-full h-20 px-4 pb-3">
-                  <p className="text-white ">{item?.description}</p>
+                  <p className="text-justify text-white">{item?.description}</p>
                 </div>
               </div>
             </div>
