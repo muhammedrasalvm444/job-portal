@@ -20,7 +20,7 @@ const Specialization = () => {
         "A contract position is where a worker is hired to complete a specific job over a predetermined period and for a set amount of money",
     },
     {
-      title: "Permenant",
+      title: "Permanent",
       // img: "./images/ecommerce.jpg",
       img: "./images/permenant.jpg",
 
@@ -37,23 +37,12 @@ const Specialization = () => {
       </h1>
       <div className="flex flex-col items-center justify-center mb-10 lg:flex-col">
         <p className="mb-5 text-xl text-justify text-gray-700">
-          Specialization is when a nation focuses its labor, resources, and
-          capital on the production of a good or service that they are experts
-          in. Trade is when nations create a relationship that promotes the
-          exchange of goods and services. The bottom line: a combination of
-          economies of scale, network effects and unrivaled specialization has
-          made TSMC irreplaceable—and has made the entire world deeply,
-          precariously dependent on it.
+          Recruitment area means that geographic locality within which a Head
+          Start program seeks to enroll Head Start children and families. The
+          recruitment area can be the same as the service area or it can be a
+          smaller area within the service area
         </p>
-        <p className="mb-4 text-xl text-justify text-gray-700">
-          Specialization is when a nation focuses its labor, resources, and
-          capital on the production of a good or service that they are experts
-          in. Trade is when nations create a relationship that promotes the
-          exchange of goods and services. The bottom line: a combination of
-          economies of scale, network effects and unrivaled specialization has
-          made TSMC irreplaceable—and has made the entire world deeply,
-          precariously dependent on it.
-        </p>
+
         <img src={RecruitmentImage} className="h-[400px] lg:h-[300px]"></img>
       </div>
 
@@ -64,7 +53,7 @@ const Specialization = () => {
               <div
                 style={{
                   height: "34.375rem",
-                  "@media (max-width: 768px)": {
+                  "@media (width: 768px)": {
                     height: "20rem",
                     display: "grid",
 
@@ -84,10 +73,10 @@ const Specialization = () => {
                     alt="Image"
                   />
                 </div>
-                <h1 className="items-center pl-6 mt-5 text-3xl font-semibold text-white">
+                <h1 className="items-center pt-4 pl-4 text-3xl font-semibold text-white">
                   {item?.title}
                 </h1>
-                <div className="w-full h-20 px-4 pb-3">
+                <div className="w-full h-20 px-4 pb-3 py-9 md:py-4">
                   <p className="text-justify text-white">{item?.description}</p>
                 </div>
               </div>

@@ -72,7 +72,7 @@ const Specialization = () => {
               {item?.title}
             </h1>
             <p
-              className={`h-0 overflow-hidden text-justify  transition-all  duration-500${
+              className={`h-0 overflow-hidden text-justify  transition-all  duration-700 ${
                 index === hoverEffect && " text-white h-auto p-5 bg-primary"
               }`}
             >
