@@ -13,12 +13,12 @@ function CompanyInfo() {
           alt=""
         />
       </div>
-      <p className="mt-10 text-lg text-gray-600 sm:mx-2">
-        sheyhiring.com is an Indian employment website operating in India and
+      <p className="mt-10 text-lg text-justify text-gray-600 sm:mx-2">
+        Sheyhiring.com is an Indian employment website operating in India and
         Middle East. It was founded in March 1997 by Indian businessman Sanjeev
         Bikhchandani. shehiring.com is the largest employment website in India.
       </p>
-      <div className="flex flex-col items-center justify-center gap-3 p-2 my-3 text-center rounded bg-primary text-secondery mt-11 hover:text-primary hover:bg-secondery">
+      <div className="flex flex-col items-center justify-center gap-3 p-2 my-3 text-center rounded bg-primary text-secondery mt-11 hover:text-primary hover:bg-secondery sm:gap-1">
         <h1 className="italic font-semibold text-7xl md:text-4xl sm:text-3xl">
           "" If opportunity doesn't knock,
         </h1>
@@ -31,11 +31,10 @@ function CompanyInfo() {
           What we do?
         </h1>
 
-        <p className="m-auto mx-auto mt-10 text-lg text-gray-600 sm:mx-4">
-          sheyhiring.com is an Indian employment website operating in India and
-          Middle East. It was founded in March 1997 by Indian businessman
-          Sanjeev Bikhchandani. shehiring.com is the largest employment website
-          in India.
+        <p className="m-auto mx-auto mt-10 text-lg text-justify text-gray-600 sm:mx-4">
+          We are dedicated to transforming the world of recruitment and hiring.
+          Our mission is to bridge the gap between exceptional talent and
+          organizations seeking excellenc
         </p>
         <div className="relative ">
           <img src="./office.jpg" className="mt-10" alt="" />
